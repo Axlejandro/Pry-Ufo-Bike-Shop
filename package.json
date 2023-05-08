@@ -1,0 +1,14 @@
+{
+  "name": "ufo-bike-shop",
+  "version": "1.0.0",
+  "description": "Desarrollo Web Html y CSS",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "sass ./sass/main.scss ./cssas/main.css -w"
+  },
+  "author": "Alejandro Armesto",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}

@@ -2,66 +2,98 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="../css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../assets/images/logo/logo3.jpeg">
-    <title>Contacto</title>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/daf930c35d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../assets/images/logo/logo3.jpeg">
+
+  <title>Contacto</title>
 </head>
 
 <body>
 
-    <header>
+  <!--Header-->
+  <header class="container__header">
 
-        <a href="../index.html"><img class="logo" src="../assets/images/logo/logo22.png" width="270px" height="170px"
-                alt="logo"></a>
-        <nav>
+    <a href="../index.html" class="logo"><img src="../assets/images/logo/logo22.png" width="250px" height="150px"
+        alt="Ufo-bike-shop">UFO-BIKE-SHOP</a>
 
-            <form>
-                <label for="busqueda"></label>
-                <input type="search" id="busqueda" placeholder="Buscar">
-            </form>
-
-            <ul>
-                <li> <a href="../index.html">| Inicio |</a></li>
-                <li><a href="bicicletas.html">| Bicicletas |</a></li>
-                <li> <a href="componentes.html">| Componentes |</a></li>
-                <li> <a href="accesorios.html">| Accesorios |</a></li>
-                <li> <a href="contacto.html">| Contacto |</a></li>
-
-            </ul>
-        </nav>
+    <nav class="container__header-menu">
 
 
-    </header>
-    <main>
-        <form action="" method="" enctype="">
+      <ul class="menu__list">
+        <li class="menu__list-item"> <a href="../index.html">INICIO</a></li>
+        <li class="menu__list-item"><a href="bicicletas.html">BICICLETAS</a></li>
+        <li class="menu__list-item"> <a href="componentes.html">COMPONENTES</a></li>
+        <li class="menu__list-item"> <a href="accesorios.html">ACCESORIOS</a></li>
+        <li class="menu__list-item"> <a href="contacto.html">CONTACTO</a></li>
 
-            <label for="Nombre">Nombre</label>
-            <input type="text" id="Nombre" />
+      </ul>
+    </nav>
+  </header>
+<!--Formulario de registo-->
+  <form class="form-register">
+    <h4>Contactanos</h4>
+<div>
+      <label for="Nombre">Nombre y Apellido *</label>
+      <input type="text" id="Nombre" />
+    </div>
+    <div>
+      <label for="numero">Telefono *</label>
+      <input type="text" id="numero" />
+    </div>
+    <div>
+      <label for="Email">Email *</label>
+      <input type="email" id="Email" />
+    </div>
+    <div>
+      <label for="mensaje">Mensaje *</label>
+      <textarea id="mensaje" name="mensaje"></textarea>
+    </div>
+    <div>
+      <button>Enviar</button>
+     
+    </div>
 
-            <label for="Apellido">Apellido</label>
-            <input type="text" id="Apellido" />
+  </form>
+<br>
+<!--Footer-->
+  <div class="footer-wrapper">
+    <footer class="footer">
+      <section class="footer__widget">
+        <h3 class="footer__widget-title">Contacto</h3>
+        <p class="footer__widget-text">Boulevard 9 de julio 718</p>
+        <p class="footer__widget-text">Yerba buena - Tucumán - 4107</p>
+        <p class="footer__widget-text">Teléfono: 3815264429</p>
+        <p class="footer__widget-text">Email: ufo_bike@gmail.com</p>
+      </section>
 
-            <label for="numero">Telefono</label>
-            <input type="number" id="numero" />
+      <section class="footer__widget">
+        <h3 class="footer__widget-title">Horarios De Atencion</h3>
+        <p class="footer__widget-text">Lunes a Viernes de 8 a 13hs y 16 a 20hs</p>
+        <p class="footer__widget-text">Sabados de 8 a 13hs</p>
+        <p class="footer__widget-text">Consultar por feriados</p>
+      </section>
 
-            <label for="Email">Email</label>
-            <input type="email" id="Email" />
 
+      <section class="footer__widget">
+        <h3 class="footer__widget-title">Seguinos</h3>
+        <a href="https://www.instagram.com/ufo.bikeshop/" target="_blank">
+          <i class="fa-brands fa-instagram"></i></a>
+    </footer>
+    <small style="color:rgb(170, 170, 170);">&copy;Ufo-Bike-Shop 2023 todos los derechos reservados</small>
+  </div>
 
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
-
-            <button>Enviar</button>
-            <button type="reset">limpiar</button>
-
-        </form>
-    </main>
 </body>
-<footer>
 
-  
-</footer>
 
 </html>
