@@ -205,9 +205,7 @@ a {
     color: #ffffff;
 }
 
-/*.card:hover{
-    transform: translateY(-10px);
-}*/
+
 
 /*Responsive*/
 
@@ -224,7 +222,9 @@ a {
         margin-top: 2.5rem;
         margin-bottom: 2.5rem;
     }
- 
+
+
+
     .footer__widget {
         margin-top: 1rem;
         margin-bottom: 1.5rem;
