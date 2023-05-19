@@ -1,0 +1,265 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgb(80, 222, 241);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-width: 328px;
+}
+body a {
+  text-decoration: none;
+  color: rgb(80, 222, 241);
+}
+
+/*.container__header .container_content footer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 100%;
+}*/
+@media (max-width: 1280px) {
+  .container__header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .container__header-menu {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 680px) {
+  .menu__list-item {
+    margin: 0.5rem;
+    display: block;
+    text-align: left;
+    float: left;
+    width: 100%;
+  }
+}
+h2 {
+  margin-bottom: 1rem;
+  color: #000000;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+  border: 1px solid black;
+}
+
+.carousel-inner {
+  padding: 1em;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.cards-wrapper .card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+.cards-wrapper .card img:hover {
+  transform: scale(1.1);
+}
+.cards-wrapper .card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #7f7a7a;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+}
+
+.banner-marcas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.banner-marcas img {
+  width: 200px;
+  height: auto;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  background-color: rgb(238, 238, 238);
+}
+.banner-card {
+  text-align: center;
+  color: #000000;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.banner-card img {
+  margin-bottom: 15px;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 30px;
+  right: 25px;
+  z-index: 999;
+}
+.whatsapp :hover {
+  transform: scale(1.1);
+  /*transform: translateX(5px);*/
+}
+
+.form-register {
+  width: 850px;
+  background-color: rgb(238, 238, 238);
+  padding: 30px;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.form-register label {
+  color: #000000;
+  padding: 8px;
+  margin-top: 5px;
+}
+.form-register h4 {
+  color: #000000;
+  font-size: 35px;
+  font-weight: 50;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.form-register input {
+  display: block;
+  margin-top: 0px;
+  width: 100%;
+  padding: 8px;
+  border-width: 0cm;
+  border-radius: 10px;
+}
+.form-register textarea {
+  margin-top: 10px;
+  width: 100%;
+  height: 100px;
+  border-width: 0cm;
+}
+.form-register button {
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 5px 30px;
+  border-radius: 5px;
+  background-color: #000000;
+  color: rgb(68, 200, 218);
+}
+.form-register button:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 1280px) {
+  .form-register {
+    max-width: 100%;
+  }
+  .form-register button {
+    margin-top: 10px;
+  }
+}
+.container__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+.logo img {
+  margin-right: 10px;
+}
+
+.menu__list {
+  margin: 0;
+}
+.menu__list-item {
+  display: inline-block;
+  margin: 0 0.8rem;
+  font-size: 17px;
+  padding-right: 10px;
+}
+.menu__list-item a:hover {
+  color: white;
+}
+
+.footer-wrapper {
+  background-color: #000000;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+.footer__widget {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 15px;
+}
+.footer__widget h3 {
+  color: white;
+}
+.footer__widget-tittle {
+  margin: 0 0 1rem 0;
+}
+.footer__widget-text {
+  padding-top: 10px;
+  margin: 0px;
+}
+
+.fa-brands {
+  font-size: 30px;
+  margin-top: 10px;
+}
+.fa-brands:hover {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer__widget {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

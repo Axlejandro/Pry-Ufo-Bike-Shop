@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+
+<url>
+  <loc>https://axlejandro.github.io/Pry-Ufo-Bike-Shop/</loc>
+  <lastmod>2023-05-09T18:38:12+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://axlejandro.github.io/Pry-Ufo-Bike-Shop/index.html</loc>
+  <lastmod>2023-05-09T18:38:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://axlejandro.github.io/Pry-Ufo-Bike-Shop/pages/bicicletas.html</loc>
+  <lastmod>2023-05-09T18:38:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://axlejandro.github.io/Pry-Ufo-Bike-Shop/pages/componentes.html</loc>
+  <lastmod>2023-05-09T18:38:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://axlejandro.github.io/Pry-Ufo-Bike-Shop/pages/accesorios.html</loc>
+  <lastmod>2023-05-09T18:38:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://axlejandro.github.io/Pry-Ufo-Bike-Shop/pages/contacto.html</loc>
+  <lastmod>2023-05-09T18:38:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

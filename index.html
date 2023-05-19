@@ -2,12 +2,16 @@
 <html lang="es">
 
 <head>
+
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <title>Ufo Bike Shop</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
@@ -17,11 +21,9 @@
   <script src="https://kit.fontawesome.com/daf930c35d.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./cssas/main.css">
 
   <link rel="shortcut icon" href="./assets/images/logo/logo3.jpeg">
-  <title>Ufo Bike Shop</title>
-
-
 
 
 </head>
@@ -35,7 +37,7 @@
         alt="Ufo-bike-shop">UFO-BIKE-SHOP</a>
 
     <nav class="container__header-menu">
-      
+
       <ul class="menu__list">
         <li class="menu__list-item"> <a href="index.html">INICIO</a></li>
         <li class="menu__list-item"><a href="./pages/bicicletas.html">BICICLETAS</a></li>
@@ -49,100 +51,227 @@
 
   <!--Content-->
 
-  <article class="content">
+  <main class="container_content">
 
     <iframe width=100% height="315" src="https://www.youtube.com/embed/N2IJFzhW_Gc" title="YouTube video player"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen></iframe>
 
-      <section class="content__container">
-        <h3 class="text-center fw-bold mt-5">OFERTAS</h3>
-        <div class="d-flex justify-content-evenly">
-        <div class="card col m-2" style="width: 50rem;">
-          <img src="./assets/images/bicicletas/Carusel1.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text fw-bold ">Sars r29 talle L - $150.000</p>
-          </div>
-        </div>
-        <div class="card col m-2" style="width: 50rem;">
-          <img src="./assets/images/bicicletas/Carusel2.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text fw-bold">Giant Classic talle M - $90.000</p>
-          </div>
-        </div>
-        <div class="card col m-2" style="width: 50rem;">
-          <img src="./assets/images/bicicletas/Carusel3.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text fw-bold">Specialized Rockhopper comp r29 - $200.000</p>
-          </div>
-        </div>
-        </div>
-          </section>
-          <section class="content__container">
-            <h3 class="text-center fw-bold mt-5">NUEVOS INGRESOS</h3>
-            <div class="d-flex justify-content-evenly">
-            <div class="card col m-2" style="width: 50rem;">
-              <img src="./assets/images/Accesorios/WhatsApp Image 2023-05-04 at 10.14.18 (1).jpeg" class="card-img-top img-thumbnail " alt="...">
+    <H2>OFERTAS</H2>
+    <div id="carouselExampleAutoplaying1" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="cards-wrapper">
+            <div class="card">
+              <img src="./assets/images/bicicletas/Carusel1.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
-                <p class="card-text fw-bold">Porta mochila - $20.000</p>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-dark d-grid gap-2">Comprar</a>
               </div>
             </div>
-            <div class="card col m-2" style="width: 50rem;">
-              <img src="./assets/images/Accesorios/WhatsApp Image 2023-05-04 at 10.14.36.jpeg" class="card-img-top img-thumbnail" alt="...">
+            <div class="card d-none d-md-block">
+              <img src="./assets/images/bicicletas/Carusel2.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
-                <p class="card-text fw-bold">Guantes Giant (talles varios) - $50.000</p>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-dark d-grid gap-2">Comprar</a>
               </div>
             </div>
-            <div class="card col m-2" style="width: 50rem;">
-              <img src="./assets/images/Accesorios/WhatsApp Image 2023-05-04 at 10.14.20 (1).jpeg" class="card-img-top img-thumbnail" alt="...">
+            <div class="card d-none d-md-block">
+              <img src="./assets/images/bicicletas/Carusel3.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
-                <p class="card-text fw-bold">Herramienta tensa estira rayos - $8.000</p>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-dark d-grid gap-2">Comprar</a>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card">
+              <img src="./assets/images/bicicletas/Carusel1.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-dark d-grid gap-2">Comprar</a>
+              </div>
             </div>
-              </section>
-       
-        <br>
-        <br>
-        <section class="banner">
-          <div class="card" style="width: 20rem; align-items: center;">
-            <img src="./assets/images/Iconos/truck-fast-solid.svg" height="30px" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title" style="font-weight: bold;">Envios a todo el pais</h5>
-              <p class="card-text">Gratis a partir de $50.000</p>
+            <div class="card d-none d-md-block">
+              <img src="./assets/images/bicicletas/WhatsApp Image 2023-03-29 at 11.06.51.jpeg" class="card-img-top"
+                alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-dark d-grid gap-2">Comprar</a>
+              </div>
+            </div>
+            <div class="card d-none d-md-block">
+              <img src="./assets/images/bicicletas/WhatsApp Image 2023-03-29 at 11.10.03.jpeg" class="card-img-top"
+                alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-dark d-grid gap-2">Comprar</a>
+              </div>
             </div>
           </div>
-          <div class="card" style="width: 20rem; align-items: center;">
-            <img src="./assets/images/Iconos/dollar-sign-solid.svg" height="30px" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title" style="font-weight: bold;">Paga como quieras</h5>
-              <p class="card-text">Transferencia, tarjeta o efectivo</p>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying1"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying1"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="banner-marcas">
+      <img src="./assets/images/marcas/b64e6a6e-fbbb-4e11-b732-58a7846e19ab.__CR0,0,350,175_PT0_SX350_V1___.jpg"
+        alt="Imagen 1">
+      <img src="./assets/images/marcas/d6f07c_fd38a8f226f046148fe87e611c9999a9.webp" alt="Imagen 2">
+      <img src="./assets/images/marcas/thumb_producto-gt_bicicletas-1568235826.jpg" alt="Imagen 3">
+      <img src="./assets/images/marcas/logo-raleigh.jpg" alt="Imagen 4">
+      <img src="./assets/images/marcas/Logo-Sunpeed-All4-bikers-1000x565-731x413.png" alt="Imagen 5">
+      <img src="./assets/images/marcas/scott-marcas-bicicletas-ha-bicicletas.jpg" alt="Imagen 6">
+      <img src="./assets/images/marcas/images.jpg" alt="Imagen 7">
+    </div>
+
+    <H2>NUEVOS INGRESOS</H2>
+    <div id="carouselExampleAutoplaying2" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="cards-wrapper">
+            <div class="card">
+              <img src="./assets/images/bicicletas/Carusel1.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-dark d-grid gap-2">Comprar</a>
+              </div>
+            </div>
+            <div class="card d-none d-md-block">
+              <img src="./assets/images/bicicletas/Carusel2.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-dark d-grid gap-2">Comprar</a>
+              </div>
+            </div>
+            <div class="card d-none d-md-block">
+              <img src="./assets/images/bicicletas/Carusel3.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-dark d-grid gap-2">Comprar</a>
+              </div>
             </div>
           </div>
-          <div class="card" style="width: 20rem; align-items: center;">
-            <img src="./assets/images/Iconos/shield-halved-solid.svg" height="30px" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title" style="font-weight: bold;">Compra con seguridad</h5>
-              <p class="card-text">Tus datos siempre estan protegidos</p>
+        </div>
+
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card">
+              <img src="./assets/images/bicicletas/Carusel1.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-dark d-grid gap-2">Comprar</a>
+              </div>
+            </div>
+            <div class="card d-none d-md-block">
+              <img src="./assets/images/bicicletas/WhatsApp Image 2023-03-29 at 11.06.51.jpeg" class="card-img-top"
+                alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-dark d-grid gap-2">Comprar</a>
+              </div>
+            </div>
+            <div class="card d-none d-md-block">
+              <img src="./assets/images/bicicletas/WhatsApp Image 2023-03-29 at 11.10.03.jpeg" class="card-img-top"
+                alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-dark d-grid gap-2">Comprar</a>
+              </div>
             </div>
           </div>
-        </section>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying2"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying2"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
 
-  </article>
+    <section class="banner">
+      <div class="banner-card" style="width: 20rem; align-items: center;">
+        <img src="./assets/images/Iconos/truck-fast-solid.svg" height="30px" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="font-weight: bold;">Envios a todo el pais</h5>
+          <p class="card-text">Gratis a partir de $50.000</p>
+        </div>
+      </div>
+      <div class="banner-card" style="width: 20rem; align-items: center;">
+        <img src="./assets/images/Iconos/dollar-sign-solid.svg" height="30px" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="font-weight: bold;">Paga como quieras</h5>
+          <p class="card-text">Transferencia, tarjeta o efectivo</p>
+        </div>
+      </div>
+      <div class="banner-card" style="width: 20rem; align-items: center;">
+        <img src="./assets/images/Iconos/shield-halved-solid.svg" height="30px" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="font-weight: bold;">Compra con seguridad</h5>
+          <p class="card-text">Tus datos siempre estan protegidos</p>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
 
 
 
   <!--Footer-->
-  <div class="footer-wrapper">
+  <main class="footer-wrapper">
     <footer class="footer">
       <section class="footer__widget">
-        <h3 class="footer__widget-title">Contacto</h3>
+        <h3 class="footer__widget-title"><a href="./pages/contacto.html" style="color: white;">Contacto</a></h3>
+
         <p class="footer__widget-text">Boulevard 9 de julio 718</p>
         <p class="footer__widget-text">Yerba buena - Tucumán - 4107</p>
         <p class="footer__widget-text">Teléfono: 3815264429</p>
         <p class="footer__widget-text">Email: ufo_bike@gmail.com</p>
+
       </section>
 
       <section class="footer__widget">
@@ -158,9 +287,14 @@
         <a href="https://www.instagram.com/ufo.bikeshop/" target="_blank">
           <i class="fa-brands fa-instagram"></i></a>
     </footer>
-    <small style="color:rgb(170, 170, 170);">&copy;Ufo-Bike-Shop 2023 todos los derechos reservados</small>
-  </div>
+    <small style="color:rgb(170, 170, 170);">&copy; 2023 | Ufo-Bike-Shop todos los derechos reservados</small>
+  </main>
 
+  <div class="whatsapp">
+    <a href="https://wa.me/+54911" target="_blank">
+      <img src="./assets/images/icone-du-logo-whatsapp-noir.webp" alt="Whatsapp" width="55" height="55" />
+    </a>
+  </div>
 </body>
 
 </html>

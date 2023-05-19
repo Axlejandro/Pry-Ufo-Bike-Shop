@@ -1,3 +1,4 @@
+/*
 * {
     padding: 0;
     margin: 0;
@@ -5,7 +6,7 @@
 }
 
 body {
-    /* height: 100%;*/
+    /* height: 100%;
     background-color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
     color: rgb(80, 222, 241);
@@ -20,14 +21,7 @@ a {
     color: rgb(80, 222, 241);
 }
 
-/*container*/
 
-/*.container{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    min-width: 328px;
-}*/
 
 .container__header content footer {
     width: 100%;
@@ -36,10 +30,10 @@ a {
     max-width: 100%;
 
 
-}
+}*/
 
 /*header*/
-.container__header {
+/*.container__header {
 
     display: flex;
     justify-content: space-between;
@@ -77,9 +71,9 @@ a {
 }
 .menu__list-item a:hover{
     color: white;
-}
+}*/
 
-/*content*/
+/*content*//*
 
 .content__container h3{
     margin-bottom: 1rem;
@@ -101,9 +95,9 @@ a {
     justify-content: space-evenly;
     margin-bottom: 1rem;
     background-color: rgb(245, 245, 245);
-}
+}*/
 
-/*footer*/
+/*footer
 .footer-wrapper {
     background-color: #000000;
 }
@@ -139,7 +133,7 @@ a {
     font-size: 30px;
     margin-top: 10px;
 }
-/*formulario de contacto*/
+/*formulario de contacto
 
 .form-register {
 
@@ -207,7 +201,7 @@ a {
 
 
 
-/*Responsive*/
+/*Responsive*//*
 
 @media(max-width: 1280px) {
 
@@ -222,8 +216,6 @@ a {
         margin-top: 2.5rem;
         margin-bottom: 2.5rem;
     }
-
-
 
     .footer__widget {
         margin-top: 1rem;
@@ -253,11 +245,8 @@ a {
     .banner{
         display: flex;
         flex-wrap: wrap;
-      
-      
-     
         
     }
   
 
-}
+}*/

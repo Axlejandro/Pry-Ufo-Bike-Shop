@@ -1,0 +1,101 @@
+h2 {
+    margin-bottom: 1rem;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    border: 1px solid black;
+
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+
+    .card {
+        margin: 0 0.5em;
+        box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+        border: none;
+        border-radius: 0;
+
+
+        img:hover {
+            transform: scale(1.1);
+
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+
+        }
+
+    }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #7f7a7a;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+
+}
+
+.banner-marcas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+
+
+    img {
+        width: 200px;
+        height: auto;
+
+    }
+
+}
+
+
+.banner {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    background-color: $bannerFormColor;
+
+    &-card {
+        text-align: center;
+        color: #000000;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+        img {
+            margin-bottom: 15px;
+        }
+    }
+} 
+
+.whatsapp {
+
+    position: fixed;
+    bottom: 30px;
+    right: 25px;
+    z-index: 999;
+
+
+    :hover {
+        transform: scale(1.1);
+        /*transform: translateX(5px);*/
+    }
+
+}
