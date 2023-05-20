@@ -7,7 +7,6 @@
 body {
 
     font-family: 'Roboto', sans-serif;
-    color: $fontColor;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -17,6 +16,40 @@ body {
         text-decoration: none;
         color: $fontColor;
 
+    }
+
+}
+
+.banner {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    background-color: $bannerFormColor;
+
+    &-card {
+        text-align: center;
+        color: #000000;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+        img {
+            margin-bottom: 15px;
+        }
+    }
+} 
+
+.whatsapp {
+
+    position: fixed;
+    bottom: 30px;
+    right: 25px;
+    z-index: 999;
+
+
+    :hover {
+        transform: scale(1.1);
+        /*transform: translateX(5px);*/
     }
 
 }
