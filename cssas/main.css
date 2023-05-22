@@ -76,9 +76,8 @@ body a {
     width: 100%;
   }
 }
-h2 {
+h3 {
   margin-bottom: 1rem;
-  color: #000000;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
   text-align: center;
@@ -107,7 +106,6 @@ h2 {
 
 .btn {
   color: rgb(80, 222, 241);
-  max-width: min-content;
 }
 
 .carousel-control-prev,
@@ -187,7 +185,7 @@ h2 {
     margin-top: 10px;
   }
 }
-.container_bikes h2 {
+.container_bikes h3 {
   color: #000000;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
@@ -224,11 +222,13 @@ h2 {
 
 @media (max-width: 1280px) {
   .bikes {
+    width: 100%;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (max-width: 768px) {
   .bikes {
+    width: 100%;
     grid-template-columns: 1fr;
   }
 }
@@ -273,13 +273,13 @@ h2 {
   margin-bottom: 50px;
   margin-top: 25px;
 }
+.footer h2 {
+  color: white;
+}
 .footer__widget {
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-size: 15px;
-}
-.footer__widget h3 {
-  color: white;
 }
 .footer__widget-tittle {
   margin: 0 0 1rem 0;
